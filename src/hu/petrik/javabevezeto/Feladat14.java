@@ -32,7 +32,7 @@ public class Feladat14 {
                     System.out.println(lenght(szoveg));
                     break;
                 case "d":
-                    //Össze hasonlítani egy másik stringgel
+                    System.out.println(comperTo2String(szoveg));
                     break;
                 case "e":
                     System.out.println(specificString(szoveg));
@@ -72,5 +72,11 @@ public class Feladat14 {
         return szoveg.substring(a, b);
     }
 
+    static int comperTo2String(String szoveg) {
+        System.out.println("Kérem adjon meg még egy szöveget: ");
+        Scanner sc = new Scanner(System.in);
+        String szoveg2 = sc.nextLine();
+        return szoveg.compareTo(szoveg2);
+    }
 
 }
