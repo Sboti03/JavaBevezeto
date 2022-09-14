@@ -7,7 +7,7 @@ public class Feladat17 {
         Scanner sc = new Scanner(System.in);
         int[] tomb1 = new int[5];
 
-        System.out.println("Első tomb elemei: ");
+        System.out.println("Első tomb elemei:");
 
         for (int i = 0; i < tomb1.length; i++) {
             System.out.print("Kérem adjon meg egy egész számot: ");
